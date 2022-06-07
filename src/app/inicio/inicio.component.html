@@ -34,7 +34,7 @@
     <nav>
         <div class="nav nav-tabs d-flex justify-content-center" id="nav-tab" role="tablist">
           
-            <a class="nav-item nav-link active text-secondary font-weight-bold" id="nav-home-tab" data-toggle="tab" href="#todasPostagens" role="tab" aria-controls="nav-todasPostagens" aria-selected="true">Todas as Postagens</a>
+            <a class="nav-item nav-link active text-secondary font-weight-bold" id="nav-todasPostagens-tab" data-toggle="tab" href="#todasPostagens" role="tab" aria-controls="nav-todasPostagens" aria-selected="true">Todas as Postagens</a>
          
           <a class="nav-item nav-link text-secondary" id="nav-minhasPostagens-tab" data-toggle="tab" href="#minhasPostagens" role="tab" aria-controls="nav-minhasPostagens" aria-selected="false">Minhas Postagens</a>
          
@@ -75,7 +75,7 @@
           </div>
 
           <div class="form-goup">
-            <label for="texto">Escolha um tema ou <a href="">cadastre um novo:</a></label>
+            <label for="texto">Escolha um tema ou <a data-dismiss="modal" routerLink="/tema">cadastre um novo:</a></label>
             <select name="tema" id="tema" class="form-control">
                 <option value="">Temas</option>
             </select>
